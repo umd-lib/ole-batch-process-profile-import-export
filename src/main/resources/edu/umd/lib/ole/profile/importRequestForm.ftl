@@ -8,26 +8,43 @@
   
   <h1>Batch Process Profile Import</h1>
   <form method="post" enctype="multipart/form-data">
-    <div>
-      <label for="newProfileName">New Profile Name:</label>
-      <input type="text" name="newProfileName"/>
-    </div>
-    
-    <div>
-      <label for="documentDescription">Document Description:</label>
-      <input type="text" name="documentDescription"/>
-    </div>
-    
-    <div>
-      <label for="userName">User Name:</label>
-      <input type="text" name="userName" value="admin"/>
-    </div>
-
-    <div>    
-      <label for="xmlProfile">Profile File:</label>
-      <input type="file" name="xmlProfile">
-    </div>
-
+    <table>
+      <tr>
+        <td>
+          <label for="newProfileName">New Profile Name:</label>
+        </td>
+        <td>
+          <input type="text" name="newProfileName"/>
+        </td>
+      </tr>    
+  
+      <tr>
+        <td>
+          <label for="documentDescription">Document Description:</label>
+        </td>
+        <td>
+          <input type="text" name="documentDescription"/>
+        </td>
+      </tr>    
+      
+      <tr>
+        <td>
+          <label for="userName">User Name:</label>
+        </td>
+        <td>
+          <input type="text" name="userName" value="ole-quickstart"/>
+        </td>
+      </tr>    
+  
+      <tr>
+        <td>
+          <label for="xmlProfile">Profile File:</label>
+        </td>
+        <td>
+          <input type="file" name="xmlProfile">
+        </td>
+      </tr>    
+    </table>
     <button type="submit">Upload</button>
   </form>
 </body>

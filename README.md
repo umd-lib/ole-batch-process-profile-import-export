@@ -54,7 +54,7 @@ are made to the database.
 
 3) mvn clean package
 
-4) Copy target/profile-servlet-0.1.0.jar to
+4) Copy target/profile-servlet-0.1.1.jar to
 [Tomcat Directory]/webapps/olefs/WEB-INF/lib/
 
 5) Edit the [Tomcat Directory]/webapps/olefs/WEB-INF/web.xml file, adding the 
@@ -101,13 +101,12 @@ profile information.
 
 2) Fill out the fields:
 
-* New Profile Name - the name for the new profile. Should NOT be an existing 
-name.
-* Document Description - A description such as "Adding [new profile name]" where 
-[new profile name] is the name of the new profile. Should be 40 characters or 
-fewer
-* User Name: Always "admin"
-* Profile File: Left-click the "Browse" button and select the XML file to load.
+|Field Name|Expected Value|
+|----------|--------------|
+|New Profile Name|The name for the new profile. Should NOT be an existing  name.|
+|Document Description|A description such as "Adding [new profile name]" where [new profile name] is the name of the new profile. Should be 40 characters or fewer|
+|User Name|Typically "ole-quickstart" or any user with permission to create new batch process profiles|
+|Profile File|Left-click the "Browse" button and select the XML file to load.|
 
 To copy a profile, do an export of the profile, then an import under a different 
 name. SEE "Important Note on Importing Profiles" ABOVE ABOUT THE POSSIBLE 
